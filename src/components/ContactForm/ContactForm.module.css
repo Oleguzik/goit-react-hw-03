@@ -1,0 +1,26 @@
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 12px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.error {
+  font-size: 10px;
+  color: rgba(255, 0, 0, 0.495);
+}
+
+.btn {
+  max-width: 80px;
+  float: right;
+}

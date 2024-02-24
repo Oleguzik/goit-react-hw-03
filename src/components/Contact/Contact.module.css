@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid #aaa;
+  /* min-width: 250px; */
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 12px; */
+  /* flex-direction: column; */
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  color: #888;
+}
