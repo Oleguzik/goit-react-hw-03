@@ -12,13 +12,13 @@ function ContactForm({ onAddContact }) {
   const validationSchema = Yup.object().shape({
     name: Yup.string()
       .trim()
-      .min(2, "Too short!")
-      .max(30, "Too long!")
+      .min(3, "Too short!")
+      .max(50, "Too long!")
       .required("Required"),
     number: Yup.string()
       .trim()
-      .min(2, "Too short!")
-      .max(30, "Too long!")
+      .min(3, "Too short!")
+      .max(50, "Too long!")
       .required("Required"),
   });
 

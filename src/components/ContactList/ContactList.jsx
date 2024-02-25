@@ -3,7 +3,7 @@ import css from "./ContactList.module.css";
 
 function ContactList({ contacts, onDelete }) {
   return (
-    <ul className={css.list}>
+    <ul className={css.grid}>
       {contacts.map((contact) => (
         <Contact
           key={contact.id}

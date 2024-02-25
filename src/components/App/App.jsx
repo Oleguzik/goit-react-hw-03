@@ -48,13 +48,15 @@ function App() {
         );
 
   return (
-    <div className={css.app}>
-      <ContactForm onAddContact={handleAddContact} />
-      <SearchBox search={search} onSearch={handleSearch}>
-        Find contacts by name
-      </SearchBox>
+    <>
+      <div className={css.form}>
+        <ContactForm onAddContact={handleAddContact} />
+        <SearchBox search={search} onSearch={handleSearch}>
+          Find contacts by name
+        </SearchBox>
+      </div>
       <ContactList contacts={filteredContacts} onDelete={handleDelete} />
-    </div>
+    </>
   );
 }
 
