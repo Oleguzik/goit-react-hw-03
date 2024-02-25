@@ -50,6 +50,7 @@ function App() {
   return (
     <>
       <div className={css.form}>
+        <h1>Phonebook</h1>
         <ContactForm onAddContact={handleAddContact} />
         <SearchBox search={search} onSearch={handleSearch}>
           Find contacts by name
